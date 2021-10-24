@@ -6,6 +6,7 @@ html{
     overflow: auto;
 }
 
+
 header{
     display: flex;
     justify-content: space-between;
@@ -117,6 +118,7 @@ justify-content: space-evenly;
     display: flex;
     border-bottom: 2px solid lightgray;
     color: rgb(80, 79, 79);
+    
 }
 
 .card:hover{
