@@ -3,6 +3,7 @@ html{
     font-size: 16px;
     font-family: sans-serif;
     font-weight: normal;
+    overflow: auto;
 }
 
 header{
@@ -78,4 +79,68 @@ a{
    text-decoration:none;
    margin-top: 16px;
 }
+
+.maininfo{
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.infoimg h2{
+   text-align: left;
+   font-size: 32px;
+}
+.infoimg p{
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.infoimg{
+    margin-top: 32px;
+    width: 55%;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+    color: rgb(80, 79, 79);
+
+    
+
+}
+#imginfo{
+    width: 100%;
+    height: auto;
+   
+
+}
+.card{
+    display: flex;
+    border-bottom: 2px solid lightgray;
+    color: rgb(80, 79, 79);
+}
+
+.card:hover{
+    background-color: lightgray;
+}
+
+.sideinfo{
+    
+    border-left: 1px solid rgb(201, 201, 201);
+}
+#sideimg1{
+    width: 35%;
+   height: auto;
+    margin: 16px 16px;
+}
+.container{
+    text-align: left;
+    font-size: medium;
+    padding-top: 32px;
+    
+}
+.container a{
+    color: rgb(0, 140, 255);
+}
+
+
 
