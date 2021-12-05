@@ -4,6 +4,7 @@ html{
     font-family: sans-serif;
     font-weight: normal;
     overflow: auto;
+    color: hsl(0deg 0% 29%);
 }
 
 
@@ -44,7 +45,7 @@ a{
 
 .mainbanner{
     padding: 32px 24px;
-    background-color: hsl(0, 0%, 87%);
+    background-color: hsl(210deg 5% 92%);
     display: flex;
    
 }
@@ -84,6 +85,7 @@ a{
 .maininfo{
 display: flex;
 justify-content: space-evenly;
+padding-bottom: 32px;
 
 }
 
@@ -144,5 +146,34 @@ justify-content: space-evenly;
     color: rgb(0, 140, 255);
 }
 
+.secondinfo{
+    background-color: hsl(210deg 5% 92%);
+}
 
+#title3 {
+    padding-top:32px;
 
+}
+
+#secondimg{
+    max-width: 100%;
+    height: auto;
+}
+.secondcard{
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
+.secondcontainer{
+    display: inline-block;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 67%;
+    margin: 1%;
+    background-color: white ;
+
+}
+.secondcaption{
+}
+ 
