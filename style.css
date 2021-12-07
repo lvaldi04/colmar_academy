@@ -85,7 +85,7 @@ a{
 .maininfo{
 display: flex;
 justify-content: space-evenly;
-padding-bottom: 32px;
+
 
 }
 
@@ -106,7 +106,7 @@ padding-bottom: 32px;
     margin-left: 24px;
     margin-bottom: 32px;
     color: rgb(80, 79, 79);
-
+    text-align: left;
     
 
 }
@@ -120,6 +120,8 @@ padding-bottom: 32px;
     display: flex;
     border-bottom: 2px solid lightgray;
     color: rgb(80, 79, 79);
+    margin-top: 16px;
+    height: 200px;
     
 }
 
@@ -132,7 +134,6 @@ padding-bottom: 32px;
     border-left: 1px solid rgb(201, 201, 201);
 }
 #sideimg1{
-    width: 35%;
    height: auto;
     margin: 16px 16px;
 }
@@ -196,4 +197,44 @@ padding-bottom: 32px;
     margin: 0px;
     padding-bottom: 24px;
 }
- 
+.thirdinfo{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.sideinfo1{
+
+}
+.card1{
+    display: flex;
+    color: rgb(80, 79, 79);
+    margin-top: 16px;
+    height: 200px;
+}
+.card1:hover{
+    background-color: lightgray;
+}
+.infoimg1{
+    margin-top: 32px;
+    width: 55%;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+    color: rgb(80, 79, 79);
+    text-align: left;
+}
+.infoimg1 h3{
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+.infoimg1 p{
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border-top: lightgray .5px solid;
+    padding-left: 24px;
+    margin-top: 16px;
+}
