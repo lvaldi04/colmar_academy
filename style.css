@@ -15,8 +15,9 @@ header{
     height: 64px;
 }
 
-.logo{
+.logo_text{
     color: dimgray;
+    
 }
 .logo2{
     color: gray;
@@ -237,4 +238,31 @@ footer{
     border-top: lightgray .5px solid;
     padding-left: 24px;
     margin-top: 16px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 550px) {
+
+header{
+    display: inline-flex;
+}
+.logo_text{
+    display: none;
+    
+}
+.logo2{
+    display: none;
+}
+.nav_text{
+    display: none;
+}
+.nav_icon{
+    display: inline-block;
+    align-items: center;
+}
+
+}
+@media screen and (min-width: 550px) and (max-width: 9999px) {
+.nav_icon{
+    display: none;
+}
 }
