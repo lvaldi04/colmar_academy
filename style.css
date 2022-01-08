@@ -271,6 +271,9 @@ header{
 .mobile_card{
     display: none;
 }
+#mobile_text{
+    display: none;
+}
 }
 @media screen and (min-width: 100px) and (max-width: 900px) {
     /* THIS IS MAIN BANNER SECTION */
@@ -312,5 +315,27 @@ header{
     width: 70%;
     padding-left: 16px;
     
+}
+.secondcontainer{
+    display: none;
+}
+.secondinfo{
+    background-color: white;
+    margin: 0px;
+    padding-bottom: 16px;
+}
+
+.secondcard{
+    margin: 16px;
+}
+#mobile_text{
+    display: inline-block;
+    width: 95%;
+    max-width: 100%;
+    font-size: 24px;
+    background-color: rgb(219, 219, 219);
+    padding: 16px 16px 24px 16px ;
+    margin: 8px;
+    text-align: left;
 }
 }
