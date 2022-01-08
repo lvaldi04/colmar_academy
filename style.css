@@ -137,6 +137,7 @@ justify-content: space-evenly;
 #sideimg1{
    height: auto;
     margin: 16px 16px;
+    width: auto;
 }
 .container{
     text-align: left;
@@ -258,10 +259,16 @@ header{
 .nav_icon{
     display: inline-block;
     align-items: center;
+    justify-content: space-around;
+    padding-left: 32px;
+    left: auto;
 }
 }
 @media screen and (min-width: 550px) and (max-width: 9999px) {
 .nav_icon{
+    display: none;
+}
+.mobile_card{
     display: none;
 }
 }
@@ -278,5 +285,32 @@ header{
 #bannertext{
     top: 0px;
     margin-left: 16px;
+}
+/* THIS IS FOR THE INFORMATION SECTION */
+.sideinfo{
+    display: inline-block;
+}
+.infoimg{
+    display: none;
+}
+.card{
+    display: none;
+}
+.mobile_card{
+    padding: 16px 16px 0px 16px;
+    display: inline-block;
+    
+}
+#sideimg_mobile{
+    height: 20%;
+    
+    max-width: 100%;
+    min-width: 30%;
+}
+.container{
+    padding-top: 0px;
+    width: 70%;
+    padding-left: 16px;
+    
 }
 }
