@@ -338,4 +338,17 @@ header{
     margin: 8px;
     text-align: left;
 }
+.sideinfo1{
+    display: none;
+}
+.infoimg3{
+    display: none;
+}
+.infoimg1{
+    width: 100%;
+    margin: 0px;
+}
+#terms_privacy{
+    display: none;
+}
 }
